@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="EX3" targetName="EX3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60e467f3-3599-4c6f-924d-b14fb07132c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Array/EX2/.idea/EX2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/.idea/EX1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/CMakeFiles/untitled2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/untitled2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/cmake-build-debug/untitled2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX1/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/.idea/EX2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/EX2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/EX2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/EX2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX2/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/.idea/EX4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/EX4.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/EX4.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/EX4.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX4/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/.idea/EX5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/EX5.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/EX5.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/EX5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX5/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/.idea/EX6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/EX6.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/EX6.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/EX6.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/EX6/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/.idea/Ex3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/Ex3.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/Ex3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork1/Ex3/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX1/.idea/EX1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX2/.idea/EX2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX3/.idea/Ex3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX4/.idea/EX4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX5/.idea/EX5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX6/.idea/EX6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX7/.idea/EX7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork2/EX8/.idea/EX8.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ym5ruHwHtZtJZBj0hwKZ3c0lMh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EX3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EX3" TARGET_NAME="EX3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EX3" RUN_TARGET_NAME="EX3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e467f3-3599-4c6f-924d-b14fb07132c6" name="Default Changelist" comment="" />
+      <created>1632844125052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632844125052</updated>
+      <workItem from="1632844126384" duration="1319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
