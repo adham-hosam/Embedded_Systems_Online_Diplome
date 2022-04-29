@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fdsef/CLionProjects/FIFO_Buffer/fifo.c
+stdio.h
+-
+fifo.h
+C:/Users/fdsef/CLionProjects/FIFO_Buffer/fifo.h
+
+C:/Users/fdsef/CLionProjects/FIFO_Buffer/fifo.h
+stdint.h
+-
+
