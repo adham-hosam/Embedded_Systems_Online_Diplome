@@ -1,0 +1,3 @@
+D:/Studing/GitHub/Embedded_system_Online_diplome/Unit 4/Data Structure/LIFO_Buffer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Studing/GitHub/Embedded_system_Online_diplome/Unit 4/Data Structure/LIFO_Buffer/cmake-build-debug/CMakeFiles/LIFO_Buffer.dir
+D:/Studing/GitHub/Embedded_system_Online_diplome/Unit 4/Data Structure/LIFO_Buffer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
