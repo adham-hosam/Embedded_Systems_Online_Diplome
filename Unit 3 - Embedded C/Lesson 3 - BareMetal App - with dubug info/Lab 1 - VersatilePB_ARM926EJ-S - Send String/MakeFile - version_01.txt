@@ -1,0 +1,33 @@
+#**************************************************************#
+#**************************************************************#
+#**************		Author: Adham Hossam		***************# 
+#**************			 MakeFile				***************#
+#**************************************************************#
+#**************************************************************#
+#**************************************************************#
+
+
+all: project.bin
+	@echo "=========== Build is Done ==========="
+
+startup.o: startup.s
+	arm-none-eabi-as.exe -mcpu=arm926ej-s -g startup.s -o startup.o
+	
+app.o: app.c
+	arm-none-eabi-gcc.exe -c -I . -g -mcpu=arm926ej-s app.c -o app.o
+	
+uart.o: uart.c
+	arm-none-eabi-gcc.exe -c -I . -g -mcpu=arm926ej-s uart.c -o uart.o
+
+project.elf: startup.o app.o uart.o
+	arm-none-eabi-ld.exe -T linker_script.ld startup.o app.o uart.o -o project.elf
+
+project.bin: project.elf
+	arm-none-eabi-objcopy.exe -O binary project.elf project.bin
+	
+clean_all:
+	rm *.o *.bin *.elf
+	
+clean:
+	rm *.elf *.bin
+	
