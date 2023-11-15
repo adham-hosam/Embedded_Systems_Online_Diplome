@@ -7,7 +7,7 @@
 **HighPressureDetectionSystem.elf**
 	   
 	 Symbol				After Linking		    Before Linking
-	B _E_BSS                          20000001							
+	 B _E_BSS                          20000001							
         B _E_DATA                         20000000
         T _E_text                         080002d4
         B _S_BSS                          20000000
