@@ -4,29 +4,19 @@
 
 **PressureSensor.o:**
 
-	00000000  T PressureSensor_Init
-
-	00000010  T PressureSensor_GetPressureValue
-
+	00000000 T PressureSensor_Init
+	00000010 T PressureSensor_GetPressureValue
 
 **Algorithm.o:**
 
 	00000000 B Alarm_Flag
-
-
 	00000000 T CheckPressureValue
-
              U AlarmActuator_SetAlarm
-
-
 	00000000 T Delay
-
 
 **AlarmActuator.o:**
 
 	00000000 T AlarmActuator_Init
-
-
 	00000024 T AlarmActuator_SetAlarm
 
 In the above list:
