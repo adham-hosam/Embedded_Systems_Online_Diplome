@@ -1,11 +1,18 @@
 ﻿
 
-## ***Name List (nm) for the objects files***
+
+## ***Sections of objects files***
 
 **PressureSensor.o:**
 
-	00000000 T PressureSensor_Init
-	00000010 T PressureSensor_GetPressureValue
+ 1. **.text:**
+    -   Size: 0x44 bytes
+    -   VMA: 0x00000000
+    -   LMA: 0x00000000
+ 2. **.data:**
+     -   Size: 0 bytes
+    -   VMA: 0x00000000
+    -   LMA: 0x00000000
 
 **Algorithm.o:**
 
@@ -24,3 +31,4 @@ In the above list:
 -   "B" stands for uninitialized data section (BSS).
 -   "T" stands for the text (code) section.
 -   "U" means the symbol is undefined (typically a function or a variable that should be defined elsewhere).
+
