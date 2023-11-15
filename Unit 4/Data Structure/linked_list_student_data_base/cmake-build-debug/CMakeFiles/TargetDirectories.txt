@@ -1,3 +1,0 @@
-D:/Studing/linked_list_student_data_base/cmake-build-debug/CMakeFiles/linked_list_student_data_base.dir
-D:/Studing/linked_list_student_data_base/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Studing/linked_list_student_data_base/cmake-build-debug/CMakeFiles/rebuild_cache.dir
