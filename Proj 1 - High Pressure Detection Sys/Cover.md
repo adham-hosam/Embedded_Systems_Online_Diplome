@@ -1,4 +1,5 @@
-﻿# Mastering Embedded System Online Diploma      		 High Pressure Detection System
+﻿
+# Mastering Embedded System Online Diploma      		 High Pressure Detection System
 
 ## Project Overview
 
@@ -53,3 +54,21 @@ A custom Makefile was engineered to automate the build process. This Makefile or
 
 **3.Toolchain Configuration:**
 The arm-none-eabi toolchain was selected for its compatibility with ARM-based microcontrollers. Configurations were tailored to match the specific needs of the project.
+
+## System Architecting/Design Sequence
+**1. System Analysis:**
+   **Purpose:**
+Provide a comprehensive understanding of the High Pressure Detection System's architecture and components.
+
+ **2. Block Diagram:**
+-   **Purpose:**
+    -   Offer a visual representation of the functional blocks within the High 		Pressure Detection System.
+    - 
+**3. Sequence Diagram:**
+-   **Purpose:**
+    -   Illustrate the temporal sequence of interactions between various components during different scenarios.
+
+**4. Activity Diagram:**
+-   **Purpose:**
+    -   Model the workflow and processes within the High Pressure Detection System.
+
