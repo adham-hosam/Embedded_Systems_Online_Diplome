@@ -12,10 +12,6 @@
 
 The High Pressure Detection System is a hardware-based solution designed to monitor and detect high-pressure conditions in a controlled environment. The primary goal of this system is to ensure the safety and integrity of equipment or processes sensitive to elevated pressure levels. The system utilizes a combination of sensors, actuators, and algorithms to effectively identify and respond to instances where pressure exceeds a predefined threshold.
 
-## Tools and Technologies
-
-Specify the development tools and technologies used in the project, including programming languages, microcontrollers, and software.
-
 ## File Structure
 The High Pressure Detection System project adopts a well-organized, layered architecture for enhanced modularity and maintainability. Here is a breakdown of the project structure based on different layers:
 1.  **MCAL (Microcontroller Abstraction Layer):**
