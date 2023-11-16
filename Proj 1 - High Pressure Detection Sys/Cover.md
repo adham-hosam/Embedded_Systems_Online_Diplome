@@ -57,18 +57,17 @@ The arm-none-eabi toolchain was selected for its compatibility with ARM-based mi
 
 ## System Architecting/Design Sequence
 **1. System Analysis:**
-   **Purpose:**
-Provide a comprehensive understanding of the High Pressure Detection System's architecture and components.
+-   **Purpose:**
+    -   Provide a comprehensive understanding of the High Pressure Detection System's architecture and components.
 
  **2. Block Diagram:**
 -   **Purpose:**
-    -   Offer a visual representation of the functional blocks within the High 		Pressure Detection System.
-    - 
+    -   Offer a visual representation of the functional blocks within the High Pressure Detection System.
+
 **3. Sequence Diagram:**
 -   **Purpose:**
     -   Illustrate the temporal sequence of interactions between various components during different scenarios.
 
-**4. Activity Diagram:**
+**4.Activity Diagram:**
 -   **Purpose:**
     -   Model the workflow and processes within the High Pressure Detection System.
-
