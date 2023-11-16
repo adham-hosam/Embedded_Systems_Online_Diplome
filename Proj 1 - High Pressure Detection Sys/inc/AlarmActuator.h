@@ -15,13 +15,14 @@
 
 typedef enum{
 
-	Alarm_OFF,
-	Alarm_ON
+	Alarm_OFF,	// Alarm is OFF
+	Alarm_ON,	// Alarm is ON
+	Alarm_Error	// Invalid alarm status
 
 }Alarm_Status;
 
 /* Prototypes */
 void AlarmActuator_Init(void);
-void AlarmActuator_SetAlarm(Alarm_Status status);
+Alarm_Status AlarmActuator_SetAlarm(Alarm_Status status);
 
 #endif /* ALARMACTUATOR_H_ */

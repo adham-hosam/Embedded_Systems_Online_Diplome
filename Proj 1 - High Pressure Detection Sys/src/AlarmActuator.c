@@ -23,18 +23,33 @@ void AlarmActuator_Init(){
 }
 
 /**************************************************************************
- * Function         : void AlarmActuator_SetAlarm(Alarm_Status status)
- * Description      : Sets or clears the Alarm Actuator based on the provided status.
- * Parameters (in)  : status - Alarm_ON to turn on the alarm, Alarm_OFF to turn it off.
+ * Function         : Alarm_Status AlarmActuator_SetAlarm(Alarm_Status status)
+ * Description      : Sets the status of the alarm actuator based on the input.
+ * Parameters (in)  : status - Desired status of the alarm (Alarm_ON or Alarm_OFF).
  * Parameters (out) : None
- * Return value     : None
+ * Return value     : Returns the current status of the alarm.
  **************************************************************************/
-void AlarmActuator_SetAlarm(Alarm_Status status)
+Alarm_Status AlarmActuator_SetAlarm(Alarm_Status status)
 {
+	uint8 Status;
+
+	// Check if the desired status is to turn the alarm ON
 	if(status == Alarm_ON){
 		CLR_BIT(GPIOA_ODR , 13);	// Alarm ON	(Active Low)
+
+		Status = Alarm_ON;
 	}
+	 // Check if the desired status is to turn the alarm OFF
 	else if(status == Alarm_OFF){
 		SET_BIT(GPIOA_ODR , 13);	// Alarm OFF (Active low)
+
+		Status = Alarm_OFF;
 	}
+	// If an invalid status is provided, set the return status to indicate an error
+	else{
+		Status = Alarm_Error;
+	}
+
+	// Return the current status of the alarm
+	return Status;
 }
