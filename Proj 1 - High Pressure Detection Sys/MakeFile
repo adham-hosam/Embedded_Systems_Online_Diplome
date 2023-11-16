@@ -15,7 +15,7 @@ CFLAGS = -mthumb -mcpu=cortex-m3
 LIBS = 
 
 # Include
-INCS = -I . -Iinc
+INCS = -I . -Iinc -Ilib
 
 # Source files and object files
 SRC = $(wildcard *.c) $(wildcard src/*.c) 
