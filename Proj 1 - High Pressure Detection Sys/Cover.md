@@ -1,6 +1,6 @@
 ﻿
 # Mastering Embedded System Online Diploma 
-	#High Pressure Detection System
+#  High Pressure Detection System
 
 ## Project Overview
 
