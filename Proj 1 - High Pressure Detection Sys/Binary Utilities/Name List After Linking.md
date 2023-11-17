@@ -2,7 +2,7 @@
 
 
 
-## ***Name List (nm) for the Project***
+## ***Name List (nm) after linking***
 
 **HighPressureDetectionSystem.elf**
 	   

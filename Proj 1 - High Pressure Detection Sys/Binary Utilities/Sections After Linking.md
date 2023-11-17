@@ -1,7 +1,7 @@
 ﻿
 
 
-## ***Sections of the Project***
+## ***Sections after linking***
 
 **HighPressureDetectionSystem.elf**
 1.  **.text:**

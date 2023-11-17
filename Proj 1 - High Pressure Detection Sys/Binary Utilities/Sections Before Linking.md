@@ -1,7 +1,7 @@
 ﻿
 
 
-## ***Sections of objects files***
+## ***Sections before linking***
 
 **PressureSensor.o:**
 

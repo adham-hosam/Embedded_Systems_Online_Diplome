@@ -1,6 +1,6 @@
 ﻿
 
-## ***Name List (nm) for the objects files***
+## ***Name List (nm) before linking***
 
 **PressureSensor.o:**
 
