@@ -1,83 +1,118 @@
+/**************************************************************/
+/**************************************************************/
+/**************		Author: Adham Hossam		***************/
+/**************			student.c				***************/
+/**************************************************************/
+/**************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
-struct SData{
-    unsigned int id;
-    char name[40];
-    float height;
-};
-struct SStudent{
-    struct SData Student;
-    struct SStudent* PNextStudent;
-};
-struct SStudent* gpFirstStudent=NULL;
-int add_student(){
+
+#include "student.h"
+
+// Pointer to the first student in the linked list.
+struct SStudent* gpFirstStudent = NULL;
+
+
+static uint32 isIdExist(uint32 id) {
+	// Start with the first student in the linked list
+    struct SStudent* pCurrentStudent = gpFirstStudent;
+	
+	// Traverse the linked list
+    while (pCurrentStudent != NULL) {
+		// Check if the current student's ID matches the given ID
+        if (id == pCurrentStudent->Student.id) {
+            return 1; // ID exists
+        }
+		
+		// Move to the next student in the linked list
+        pCurrentStudent = pCurrentStudent->PNextStudent;
+    }
+    return 0; // ID does not exist
+}
+
+uint32 add_student() {
     struct SStudent* pNewStudent;
     struct SStudent* pLastStudent;
-    if(gpFirstStudent == NULL)                       //checking if the list is empty
-    {
-        //empty list
-        pNewStudent = (struct SStudent*) malloc(sizeof(struct SStudent));
-        gpFirstStudent = pNewStudent;
-        pNewStudent->PNextStudent = NULL;
+
+	// Allocate memory for the new student
+    pNewStudent = (struct SStudent*)malloc(sizeof(struct SStudent));
+
+	// Check if memory allocation is successful
+    if (pNewStudent == NULL) {
+        printf("\nMemory allocation failed.\n");
+        return 1;	// Return 1 to indicate failure
     }
-        //list contains data
-    else
-    {
-        pLastStudent = gpFirstStudent;
-        while(pLastStudent->PNextStudent != NULL)    //to reach the last record
-        {
-            pLastStudent = pLastStudent->PNextStudent;
-        }
-        pNewStudent = (struct SStudent*) malloc(sizeof(struct SStudent));
-        pLastStudent->PNextStudent = pNewStudent;
-        pNewStudent->PNextStudent = NULL;
+	
+	// Input the ID for the new student
+    printf("\nEnter the ID:");
+    scanf("%u", &pNewStudent->Student.id);
+
+    // Check if the ID already exists
+    if (isIdExist(pNewStudent->Student.id)) {
+        printf("\n====== ID is already exist ======\n");
+        free(pNewStudent); // Free the allocated memory
+        return 1;
     }
-    //fill the data
-    struct SStudent* pCurrentStudent = gpFirstStudent;
-        printf("\nEnter the ID:");
-        scanf("%d", &pNewStudent->Student.id);
-        while (pCurrentStudent->PNextStudent) {                   //check if the ID is already exist
-            if (pNewStudent->Student.id == pCurrentStudent->Student.id) {
-                printf("\n====== ID is already exist ======\n");
-                return 1;
-            }
-            else
-            {
-                pCurrentStudent = pCurrentStudent->PNextStudent;
-            }
-        }
+
     printf("\nEnter the student name: ");
-    //gets(pNewStudent->Student.name);
-    scanf("%s",pNewStudent->Student.name);
+    scanf(" %[^\n]", pNewStudent->Student.name);
 
     printf("\nEnter the height:");
-    scanf("%f",&pNewStudent->Student.height);
-    //set the last pointer to NULL
+    scanf("%f", &pNewStudent->Student.height);
+	
+	// Set the next pointer to NULL
     pNewStudent->PNextStudent = NULL;
+
+    if (gpFirstStudent == NULL) {
+		// Empty list, the new student becomes the first
+        gpFirstStudent = pNewStudent;
+    } else {
+        // List contains data, find the last student and append the new student
+        pLastStudent = gpFirstStudent;
+        while (pLastStudent->PNextStudent != NULL) {
+            pLastStudent = pLastStudent->PNextStudent;
+        }
+        pLastStudent->PNextStudent = pNewStudent;
+    }
+
     return 0;
 }
-int delete_student(){
-    unsigned int selected_id,count=0;
-    if(gpFirstStudent != NULL)      //checking if the list is empty
+
+uint32 delete_student() {
+
+    uint32 selected_id,count=0;
+	
+	//checking if the list is empty
+    if(gpFirstStudent != NULL)      
     {
+		// Input the ID to be deleted
         printf("\nEnter the student ID to be erased:");
         scanf("%d",&selected_id);
         struct SStudent* pSelectedStudent = gpFirstStudent;
         struct SStudent* pPreviousStudent = NULL;
+		
+		// Traverse the list
         while (pSelectedStudent)
         {
+			
+			// Check if the selected ID is found
             if(pSelectedStudent->Student.id == selected_id)
             {
-                if(pPreviousStudent)        //the selected ID isn't the first student
+				//the selected ID isn't the first student
+                if(pPreviousStudent)        
                 {
-                    pPreviousStudent = pSelectedStudent->PNextStudent;
+                    pPreviousStudent->PNextStudent = pSelectedStudent->PNextStudent;
                 }
+				// If the selected ID is the first student
                 else
                 {
                     gpFirstStudent = pSelectedStudent->PNextStudent;
                 }
+				
+				// Free the memory for the selected student
                 free(pSelectedStudent);
+                printf("\n======== Student data has been deleted ========\n");
                 return 1;
             }
             else         //if the ID isn't found
@@ -85,22 +120,27 @@ int delete_student(){
             pPreviousStudent = pSelectedStudent;
             pSelectedStudent = pSelectedStudent->PNextStudent;
         }
+
     }
     else
-        printf("\n====== The list is already empty ======\n");
+        printf("\n======== The list is already empty ========\n");
     if(count>0)
         printf("\n======== can't find the student ID ========\n");
 
     return 0;
-    
 }
-void view_students(){
-    int count=0;
+
+void view_students() {
+
+    uint32 count=0;
     struct SStudent* pCurrentStudent = gpFirstStudent;
+	
+	// Check if the list is empty
     if( gpFirstStudent == NULL)
         printf("\n\t========== List is empty ==========\t\n");
 
-    while(pCurrentStudent)      //looping the all nodes
+	// Loop through all nodes
+    while(pCurrentStudent)      
     {
         printf("\n\t=================\n");
         printf("\nRecord name: %d",count+1);
@@ -113,7 +153,9 @@ void view_students(){
 
     }
 }
-void delete_all(){
+
+void delete_all() {
+
     struct SStudent* pCurrentStudent = gpFirstStudent;
     if(gpFirstStudent == NULL)
         printf("\n========= The list is already empty =========\n");
@@ -125,9 +167,11 @@ void delete_all(){
     }
     gpFirstStudent = NULL;
 }
-int Get_Index(){
+
+uint32 Get_Index() {
+
     struct SStudent * pCurrentStudent = gpFirstStudent;
-    int count = 0 , index;
+    uint32 count = 0 , index;
     if(gpFirstStudent == NULL)
     {
         printf("\n========= The list is already empty =========\n");
@@ -136,21 +180,23 @@ int Get_Index(){
     printf("\nEnter the index to be viewed:");
     scanf("%d", &index);
     while (pCurrentStudent) {
-            if (count == index) {
-                printf("\n\t=================\n");
-                printf("\nID: %d", pCurrentStudent->Student.id);
-                printf("\nName: %s", pCurrentStudent->Student.name);
-                printf("\nHeight: %.2f\n", pCurrentStudent->Student.height);
-                printf("\n\t=================\n");
-            }
-            count++;
-            pCurrentStudent = pCurrentStudent->PNextStudent;
+        if (count == index) {
+            printf("\n\t=================\n");
+            printf("\nID: %d", pCurrentStudent->Student.id);
+            printf("\nName: %s", pCurrentStudent->Student.name);
+            printf("\nHeight: %.2f\n", pCurrentStudent->Student.height);
+            printf("\n\t=================\n");
         }
+        count++;
+        pCurrentStudent = pCurrentStudent->PNextStudent;
+    }
     return 0;
 }
-int Find_len(){
+
+uint32 Find_len() {
+
     struct SStudent * pCurrentStudent = gpFirstStudent;
-    int len=0 ;
+    uint32 len=0 ;
     if(gpFirstStudent == NULL) {
         printf("\n========= The list is already empty =========\n");
         return 1;
@@ -159,21 +205,23 @@ int Find_len(){
         len++;
         pCurrentStudent = pCurrentStudent->PNextStudent;
     }
-    printf("\n%d\n",len);
+    printf("\nLength of the list = %d\n",len);
 
     return 0;
 }
-int Get_node_from_the_last(){
+
+uint32 Get_node_from_the_last() {
+
     struct SStudent* pRefStudent = gpFirstStudent;
     struct SStudent* pCurrentStudent = gpFirstStudent;
-    int node_number;
+    uint32 node_number;
     if(gpFirstStudent == NULL) {
         printf("\n========= The list is already empty =========\n");
         return 1;
     }
     printf("\nEnter the n'th node from the end to be viewed: ");
     scanf("%d",&node_number);
-    for (int i = 1; i <=node_number ; ++i) {
+    for (uint32 i = 1; i <=node_number ; ++i) {
         pRefStudent = pRefStudent->PNextStudent;
     }
     while (pRefStudent){
@@ -186,7 +234,9 @@ int Get_node_from_the_last(){
     printf("\nHeight: %.2f\n",pCurrentStudent->Student.height);
     return 0;
 }
-void Get_middle(){
+
+void Get_middle() {
+
     struct SStudent* pFast = gpFirstStudent;
     struct SStudent* pCurrentStudent = gpFirstStudent;
     while (pFast != NULL && pFast->PNextStudent != NULL){
@@ -199,7 +249,9 @@ void Get_middle(){
     printf("\nName: %s",pCurrentStudent->Student.name);
     printf("\nHeight: %.2f\n",pCurrentStudent->Student.height);
 }
-void reverse_nodes(){
+
+void reverse_nodes() {
+
     struct SStudent* pCurrent = gpFirstStudent;
     struct SStudent* pNext = NULL;
     struct SStudent* pPrevious = NULL;
@@ -215,56 +267,5 @@ void reverse_nodes(){
         gpFirstStudent = pPrevious;
     }
 }
-int main() {
-    int choice;
-    while (1) {
-        printf("\nChoose from the following options\n");
-        printf("\n1. Add student\n");
-        printf("\n2. View students\n");
-        printf("\n3. Delete student\n");
-        printf("\n4. Delete all\n");
-        printf("\n5. Get index\n");
-        printf("\n6. Find length\n");
-        printf("\n7. Find node from the end\n");
-        printf("\n8. Find the middle\n");
-        printf("\n9. Reverse the nodes\n");
-        printf("\n10. End process\n");
-        printf("\nEnter option number: ");
-        scanf("%d", &choice);
 
-        switch (choice) {
-            case 1:
-                add_student();
-                break;
-            case 2:
-                view_students();
-                break;
-            case 3:
-                delete_student();
-                break;
-            case 4:
-                delete_all();
-                break;
-            case 5:
-                Get_Index();
-                break;
-            case 6:
-                Find_len();
-                break;
-            case 7:
-                Get_node_from_the_last();
-                break;
-            case 8:
-                Get_middle();
-                break;
-            case 9:
-                reverse_nodes();
-                break;
-            case 10:
-                exit(1);
-            default:
-                printf("Wrong choice");
-                break;
-        }
-    }
-}
+
