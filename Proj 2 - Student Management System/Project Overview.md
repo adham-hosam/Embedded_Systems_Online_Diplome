@@ -1,6 +1,6 @@
 
 
-# Student Management System Project Overview
+# Student Management System Project
 
 ## Introduction
 
