@@ -30,22 +30,22 @@ int main(){
 }
 
 void INT0_ISR(){
-	PORTD |= (1<<5);
+	LED_Status(LED_ON , 5);
 	_delay_ms(10000);
-	PORTD &= ~(1<<5);
+	LED_Status(LED_OFF , 5);
 }
 
 void INT1_ISR(){
 
-	PORTD |= (1<<6);
+	LED_Status(LED_ON , 6);
 	_delay_ms(10000);
-	PORTD &= ~(1<<6);
+	LED_Status(LED_OFF , 6);
 }
 
 void INT2_ISR(void){
 
-	PORTD |= (1<<7);
+	LED_Status(LED_ON , 7);
 	_delay_ms(10000);
-	PORTD &= ~(1<<7);
+	LED_Status(LED_OFF , 7);
 }
 
