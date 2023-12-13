@@ -1,16 +1,14 @@
 /*****************************************************/
 /*****************************************************/
 /*************** Author :  Adham Hossam **************/
-/*************** 		RCC.c		   ***************/
+/*************** 		DIO.c		   ***************/
 /*****************************************************/
 /*****************************************************/
 
-#include "RCC.h"
+#include "DIO.h"
 
-void RCC_Init(void){
+void DIO_Init(void){
 
-	// Enable Clock for GPIOA & GPIOB
-	SET_BIT(RCC_APB2ENR , RCC_APB2ENR_IOPAEN);
-	SET_BIT(RCC_APB2ENR , RCC_APB2ENR_IOPBEN);
+	DDRA = 0xff;
 }
 

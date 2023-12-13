@@ -1,16 +1,26 @@
 /*****************************************************/
 /*****************************************************/
 /*************** Author :  Adham Hossam **************/
-/*************** 		RCC.c		   ***************/
+/*************** 		LED.h		   ***************/
 /*****************************************************/
 /*****************************************************/
 
-#include "RCC.h"
+#ifndef LED_H_
+#define LED_H_
 
-void RCC_Init(void){
+#include "Platform_Types.h"
+#include "BIT_MATH.h"
 
-	// Enable Clock for GPIOA & GPIOB
-	SET_BIT(RCC_APB2ENR , RCC_APB2ENR_IOPAEN);
-	SET_BIT(RCC_APB2ENR , RCC_APB2ENR_IOPBEN);
-}
+typedef enum{
+	LED_OFF,
+	LED_ON,
+	LED_TOGGLE
+}Led_Status;
 
+
+
+void LED_Status(Led_Status led, volatile uint8 *port, uint8 pin);
+
+
+
+#endif /* LED_H_ */
